@@ -22,6 +22,7 @@ The [sidetoc.css](https://github.com/arashsm79/hugo-PaperMod-Mod/blob/main/asset
 https://user-images.githubusercontent.com/57039957/210163274-178feb2e-1da1-4b8c-9aa8-ad26d88f1d50.mp4
 
 ## Other QOL changes
+[custom.css](https://github.com/arashsm79/hugo-PaperMod-Mod/blob/main/assets/css/extended/custom.css)
 * Increase the width of post pages more than the home page
 * Increase the width of images placed in the homeinfo section
 * Increase the font size of summary text
