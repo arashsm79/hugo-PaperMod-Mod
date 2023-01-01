@@ -1,0 +1,37 @@
+/* Allocate a single column when the width of the page is small. */
+.post-entry {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px 0px;
+}
+
+/* Allocated two columns when there is enough width. *
+ * The thumbnail is placed in the first column, while the rest of
+ * the children are placed in the second column. */
+@media (min-width: 700px) {
+    .post-entry {
+        grid-template-columns: 2fr 3fr;
+        grid-gap: 0px 10px;
+    }
+}
+
+.post-entry .entry-cover {
+    margin-bottom: 0;
+    margin-right: 15px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: span 3;
+}
+
+.post-entry .entry-header {
+    align-self: center;
+}
+
+.post-entry .entry-content {
+    align-self: center;
+}
+
+.post-entry .entry-footer {
+    align-self: end;
+}

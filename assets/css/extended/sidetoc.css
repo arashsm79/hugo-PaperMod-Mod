@@ -1,0 +1,36 @@
+/* Allocate a single column when the width of the page is small. */
+.post-single {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+}
+
+/* Allocated two columns when there is enough width. *
+ * The ToC is placed in the second column, while the rest of
+ * the children are placed in the first column. */
+@media (min-width: 1200px) {
+    .post-single {
+        grid-template-columns: 3fr 1fr;
+    }
+    .post-single .toc {
+        grid-column: 2;
+        position: sticky;
+        top: 10px;
+    }
+}
+
+.post-single .post-header {
+    grid-column: 1;
+}
+.post-single .entry-cover {
+    grid-column: 1;
+}
+.post-single .post-content {
+    grid-column: 1;
+}
+.post-single .post-footer {
+    grid-column: 1;
+}
+.post-single .toc {
+    height: fit-content;
+}
