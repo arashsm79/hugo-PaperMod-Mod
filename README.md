@@ -1,5 +1,5 @@
 # hugo-PaperMod-Mod
-> A bunch of stylesheets that modify the look of Hugo PaperMod theme. Includes thumbnails and sidebar table of contents.
+> A bunch of stylesheets that modify the look of [Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Includes thumbnails and sidebar table of contents.
 
 * [Thumbnails](#thumbnails)
 * [Sidebar ToC](#sidebar-table-of-contents)
