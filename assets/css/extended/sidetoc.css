@@ -21,7 +21,7 @@
 
 .post-single .post-header {
     grid-column: 1;
-    width: -webkit-fill-available;
+    width: 100%;
 }
 .post-single .entry-cover {
     grid-column: 1;
