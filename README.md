@@ -4,6 +4,7 @@
 * [Thumbnails](#thumbnails)
 * [Sidebar ToC](#sidebar-table-of-contents)
 * [Others](#other-qol-changes)
+* [Installation](#installation)
 
 
 ## Thumbnails
