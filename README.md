@@ -22,7 +22,10 @@ The [sidetoc.css](https://github.com/arashsm79/hugo-PaperMod-Mod/blob/main/asset
 https://user-images.githubusercontent.com/57039957/210163274-178feb2e-1da1-4b8c-9aa8-ad26d88f1d50.mp4
 
 ## Other QOL changes
-The rest of the files change things such as the default width of the page or the alignment of cover images in single posts.
+* Increase the width of post pages more than the home page
+* Increase the width of images placed in the homeinfo section
+* Increase the font size of summary text
+* Set a limit on the width of post cover and align them center.
 
 ## Installation
 Simply copy the CSS files that you want from this repository to the `assets/css/extended` folder of your Hugo project.
