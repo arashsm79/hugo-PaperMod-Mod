@@ -5,7 +5,7 @@
     grid-gap: 5px 0px;
 }
 
-/* Allocated two columns when there is enough width. *
+/* Allocate two columns when there is enough width. *
  * The thumbnail is placed in the first column, while the rest of
  * the children are placed in the second column. */
 @media (min-width: 700px) {
@@ -16,10 +16,8 @@
 }
 
 .post-entry .entry-cover {
-    margin-bottom: 0;
     max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     grid-row: span 3;
 }
 
