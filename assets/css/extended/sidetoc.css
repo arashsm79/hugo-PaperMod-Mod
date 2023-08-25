@@ -1,7 +1,7 @@
 /* Allocate a single column when the width of the page is small. */
 .post-single {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     grid-column-gap: 20px;
 }
 
@@ -10,7 +10,7 @@
  * the children are placed in the first column. */
 @media (min-width: 1200px) {
     .post-single {
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
     }
     .post-single .toc {
         grid-column: 2;
