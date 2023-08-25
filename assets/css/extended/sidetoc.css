@@ -39,6 +39,13 @@
 /* Make the ToC scrollable */
 .post-single .toc #TableOfContents {
     overflow-y: auto;
+    overflow-x: auto;
+    padding-left: 20px;
     max-height: 70vh;
+}
+
+.post-single .toc .inner {
+    margin: 5px;
+    padding: 0;
 }
 
