@@ -24,7 +24,8 @@ the browser support for :has is not widespread yet.
 /* Increase the width of images placed in home info. */
 .home-info .entry-content img {
     width: 100%;
-    max-width: 800px;
+    max-width: fit-content;
+    border-radius: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
@@ -42,3 +43,9 @@ the browser support for :has is not widespread yet.
     margin-right: auto;
 }
 
+.post-content img {
+    margin: auto;
+}
+.post-content figcaption {
+  text-align: center;
+}
